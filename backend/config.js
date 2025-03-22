@@ -1,4 +1,3 @@
-export const PORT = 5555;
+export const PORT = process.env.PORT;
 
-export const mongoDBURL =
-  'mongodb+srv://cphrpunk:4ITwlmF0yPilGg6p@cluster0.re2rf.mongodb.net/books-collection?retryWrites=true&w=majority&appName=Cluster0';
+export const mongoDBURL = process.env.MONGO_URI;
